@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akan Name Generator</title>
+    <link href="styles.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <h1 id="title">Akan Name Generator</h1>
+    <p id="intro">Uncover the story behind your birth day. Akan Name Generator connects you with your authentic Akan soul name and its deep cultural significance in just a few clicks.Find your Akan soul name based on your date of birth and gender.</p>
+
+    <form id="inputform">
+        <label for="birthdate">Birthdate</label>
+        <input type="date" id="birthdate" name="birthdate" required>
+        <label for="gender">Gender</label>
+        <select id="gender" name="gender" required>
+            <option value="" disabled selected>Select your gender</option>
+            <option>Male</option>
+            <option>Female</option>
+        </select><br>
+        <button id="submit" type="submit">Get your Akan Name</button>
+    </form>
+    <p>Your Akan Name:</p>
+    <div id="response"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
