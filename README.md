@@ -11,4 +11,7 @@ Determine your Akan name using this simple to use generator. Akan names are name
 2. Run github
 3. Run the code in browser
 
+# Live Link
+https://gjwambui57-ux.github.io/Akan-Name-Generator/
+
 
