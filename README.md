@@ -14,4 +14,5 @@ Determine your Akan name using this simple to use generator. Akan names are name
 # Live Link
 https://gjwambui57-ux.github.io/Akan-Name-Generator/
 
-
+# Copyright and License
+MIT License
