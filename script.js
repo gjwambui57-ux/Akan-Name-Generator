@@ -81,49 +81,49 @@ function calculateDay(day, month, year) {
     return dayIndex;
 }
 
-// function getAkanName(dayIndex, gender) {
+function getAkanName(dayIndex, gender) {
 
-//     const dayName = days[dayIndex];
+    const dayName = days[dayIndex];
 
-//     return {
-//         day: dayName,
-//         name: akanNames[dayName][gender]
-//     };
-// }
+    return {
+        day: dayName,
+        name: akanNames[dayName][gender]
+    };
+}
 
-// document.getElementById("inputform").addEventListener("submit", function (event) {
+document.getElementById("inputform").addEventListener("submit", function (event) {
 
-//     event.preventDefault();
+    event.preventDefault();
 
-//     const birthdate = document.getElementById("birthdate").value;
-//     const gender = document.getElementById("gender").value;
-//     const response = document.getElementById("response");
+    const birthdate = document.getElementById("birthdate").value;
+    const gender = document.getElementById("gender").value;
+    const response = document.getElementById("response");
 
-//     if (birthdate === "") {
-//         alert("Please enter your birthdate.");
-//         return;
-//     }
+    if (birthdate === "") {
+        alert("Please enter your birthdate.");
+        return;
+    }
 
-//     const date = new Date(birthdate);
+    const date = new Date(birthdate);
 
-//     const day = date.getDate();
-//     const month = date.getMonth() + 1;
-//     const year = date.getFullYear();
+    const day = date.getDate();
+    const month = date.getMonth() + 1;
+    const year = date.getFullYear();
 
-//     if (!validateInput(day, month, gender)) {
-//         return;
-//     }
+    if (!validateInput(day, month, gender)) {
+        return;
+    }
 
-//     const dayIndex = calculateDay(day, month, year);
+    const dayIndex = calculateDay(day, month, year);
 
-//     const result = getAkanName(dayIndex, gender);
+    const result = getAkanName(dayIndex, gender);
 
-//     response.innerHTML = `
-//         <h3>Your Result</h3>
-//         <p><strong>Day of Birth:</strong> ${result.day}</p>
-//         <p><strong>Your Akan Name:</strong> ${result.name}</p>
-//     `;
+    response.innerHTML = `
+        <h3>Your Result</h3>
+        <p><strong>Day of Birth:</strong> ${result.day}</p>
+        <p><strong>Your Akan Name:</strong> ${result.name}</p>
+    `;
 
-//     document.getElementById("inputform").reset();
+    document.getElementById("inputform").reset();
 
-// });
+});
