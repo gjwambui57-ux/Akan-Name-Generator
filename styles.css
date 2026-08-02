@@ -16,11 +16,11 @@ body {
   padding: 30px;
   margin: 80px;
 }
-/* #intro {
+#intro {
     margin-left: 200px;
     margin-right: 200px;
 }
-#inputform {
+/* #inputform {
     font-size: large;
     margin-top: 30px;
     display: flex;
