@@ -39,25 +39,25 @@ const days = [
     "Saturday"
 ];
 
-// function validateInput(day, month, gender) {
+function validateInput(day, month, gender) {
 
-//     if (day < 1 || day > 31) {
-//         alert("Please enter a valid day (1 - 31).");
-//         return false;
-//     }
+    if (day < 1 || day > 31) {
+        alert("Please enter a valid day (1 - 31).");
+        return false;
+    }
 
-//     if (month < 1 || month > 12) {
-//         alert("Please enter a valid month (1 - 12).");
-//         return false;
-//     }
+    if (month < 1 || month > 12) {
+        alert("Please enter a valid month (1 - 12).");
+        return false;
+    }
 
-//     if (gender === "") {
-//         alert("Please select your gender.");
-//         return false;
-//     }
+    if (gender === "") {
+        alert("Please select your gender.");
+        return false;
+    }
 
-//     return true;
-// }
+    return true;
+}
 
 // function calculateDay(day, month, year) {
 
