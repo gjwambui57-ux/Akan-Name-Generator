@@ -8,7 +8,7 @@ body {
     padding: 20px;
     line-height: 1.5;
 }
-/* #title {
+#title {
   font-weight: bold;
   background-color: #E8F5E9;
   border: solid #000 2px;
@@ -16,7 +16,7 @@ body {
   padding: 30px;
   margin: 80px;
 }
-#intro {
+/* #intro {
     margin-left: 200px;
     margin-right: 200px;
 }
