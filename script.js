@@ -59,27 +59,27 @@ function validateInput(day, month, gender) {
     return true;
 }
 
-// function calculateDay(day, month, year) {
+function calculateDay(day, month, year) {
 
-//     const CC = Math.floor(year / 100);
-//     const YY = year % 100;
+    const CC = Math.floor(year / 100);
+    const YY = year % 100;
 
-//     let dayIndex =
-//         (
-//             ((CC / 4) - 2 * CC - 1) +
-//             ((5 * YY) / 4) +
-//             ((26 * (month + 1)) / 10) +
-//             day
-//         );
+    let dayIndex =
+        (
+            ((CC / 4) - 2 * CC - 1) +
+            ((5 * YY) / 4) +
+            ((26 * (month + 1)) / 10) +
+            day
+        );
 
-//     dayIndex = Math.floor(dayIndex) % 7;
+    dayIndex = Math.floor(dayIndex) % 7;
 
-//     if (dayIndex < 0) {
-//         dayIndex += 7;
-//     }
+    if (dayIndex < 0) {
+        dayIndex += 7;
+    }
 
-//     return dayIndex;
-// }
+    return dayIndex;
+}
 
 // function getAkanName(dayIndex, gender) {
 
